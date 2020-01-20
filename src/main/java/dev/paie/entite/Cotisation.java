@@ -15,15 +15,10 @@ public class Cotisation {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY) 
 	private Integer id;
-	@Column(name="CODE")
 	private String code;
-	@Column(name="LIBELLE")
 	private String libelle;
-	@Column(name="TAUXSALARIAL")
 	private BigDecimal tauxSalarial;
-	@Column(name="TAUXPATRONAL")
 	private BigDecimal tauxPatronal;
-	@Column(name="IMPOSSIBLE")
 	private Boolean imposable = false;
 	
 	public String getCode() {

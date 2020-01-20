@@ -17,9 +17,7 @@ public class Periode {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY) 
 	private Integer id;
-	@Column(name="DATEDEBUT")
 	private LocalDate dateDebut;
-	@Column(name="DATEFIN")
 	private LocalDate dateFin;
 	
 	public LocalDate getDateDebut() {
